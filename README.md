@@ -36,6 +36,6 @@ There will be two prize categories:
 
 There will be a cash prize for each of these.
 
-## Jury
+## Jury
 
-?
+There will a jury judging the best submissions.
