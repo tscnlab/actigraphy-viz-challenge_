@@ -22,7 +22,7 @@ The data set contains data from 40 people with chronic insomnia and their 40 bed
 
 ## How to submit your entry
 
-To submit an entry, please create a pull request of this repository, containing your submission in a folder called `output` in a PDF, PNG or other standard image format. If you are submitting a reproducible visualisation, please include a folder called `code`, as well as instructions on running the code in a file called `README`.
+To submit an entry, please fork this repository and create a pull request, containing your submission in a folder called `output` in a PDF, PNG or other standard image format. If you are submitting a reproducible visualisation, please include a folder called `code`, as well as instructions on running the code in a file called `README`.
 
 ## Submission deadline
 
@@ -38,4 +38,8 @@ There will be a cash prize for each of these.
 
 ## Jury
 
-There will a jury judging the best submissions.
+There will a jury judging the best submissions. Please check back for more details.
+
+## Contact
+
+Please contact manuel.spitschan@psy.ox.ac.uk with any queries.
