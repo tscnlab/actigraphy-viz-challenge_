@@ -20,7 +20,7 @@ Downloaded data must be extracted in the `data` folder.  Client and partner data
 - Clients: `data/Supplementary Material_Final/Data/CLIENT`
 - Partners: `data/Supplementary Material_Final/Data/PARTNER`
 
-With the data in place one can open the RStudio project `actigraphy-viz-challenge.Rproj` and run the `actograms.R` script. The script's output will be saved to the `output` folder in PDF format. 
+With the data in place one can open the RStudio project `actigraphy-viz-challenge.Rproj` and run the `actograms.R` in the `code` folder. The script's output will be saved to the `output` folder in PDF format. 
 
 ## Contact
 
