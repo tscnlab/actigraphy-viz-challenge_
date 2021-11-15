@@ -74,9 +74,9 @@ for i=1 %:length(Client_list)
     Partner_Data([trim_ind_f;trim_ind_e],:)=[];
     % finding the intervals required for plotting
     if Out_Client.epoch_interval==60
-        param.interval=Out_Client.epoch_interval*2;
+        param.interval=Out_Client.epoch_interval;
     elseif Out_Client.epoch_interval==30
-        param.interval=Out_Client.epoch_interval*4;
+        param.interval=Out_Client.epoch_interval*2;
     end
     %% Creating the plot
     unique_dates=datetime(unique(string(datetime(Partner_Data.Time,'Format','dd-MMM-yyyy'))),'InputFormat','dd-MMM-yyyy');
