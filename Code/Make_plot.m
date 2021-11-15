@@ -33,8 +33,12 @@ omit_hr=8;
 % Color map - choose - 1- RCG ; 0- color blind friendly
 color_map=1;
 %% check the client list and enter the index of the participant
-% remove the comment below to run for all suitable participants
-for i=1 %:length(Client_list)   
+% remove the comment below to run for all suitable participants 
+% Multiple file / file format issues:  1187 1190 1228 
+% Over 10 days of days 1039 1057 1124 1182 1237 1246 1277 1287 - can run
+% but plot is not suited for over 10 days of data
+% Runs correctly for the rest 29 participants 
+for i=1:length(Client_list)   
     % Choose a client file and find the matching partner file and compile the data
     disp(erase(Client_list(i),'C'));
     Client_file=Client_filelist(contains(Client_filelist,Client_list(i)));
@@ -120,6 +124,6 @@ for i=1 %:length(Client_list)
     else
         disp('Over 10 days of data is present, hence skipping to avoid odd looking plot');
     end
-    exportgraphics(gca,strcat(erase(Client_list(i),'C'),'_',ext,'.png'),'Resolution',600)  
+    exportgraphics(gca,strcat(erase(Client_list(i),'C'),'_',ext,'.png'),'Resolution',300)  
     close all;
 end
