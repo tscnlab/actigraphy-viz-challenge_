@@ -15,7 +15,7 @@ In the actograms we plotted only clients that had corresponding bed partners and
 
 ## Reproducing
 
-Downloaded data must be extracted in the `data` folder.  lient and partner data must be in the paths:
+Downloaded data must be extracted in the `data` folder.  Client and partner data must be in the paths:
 
 - Clients: `data/Supplementary Material_Final/Data/CLIENT`
 - Partners: `data/Supplementary Material_Final/Data/PARTNER`
