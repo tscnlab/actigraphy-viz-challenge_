@@ -1,45 +1,27 @@
 # ADVAnCe - Actigraphy Data Visualization and Analysis Challenge
 
-![Three visualisations of actigraphy data](viz.png)
+The scripts in this repository aim to provide a clean way of visualizing and comparing client and partners sleep and activity patterns. It is part my entry for the **Actigraphy Data Visualization and Analysis Challenge** that is part of the PoLNet3 workshop.
 
-This repository serves as the main repository for the **Actigraphy Data Visualization and Analysis Challenge** that is part of the PoLNet3 workshop.
+## Data and Output
 
-## Objective
+The main data used to plot actograms are the 'interval status' classification provided by the ActiWatch. The output from the main script is two PDF files, one containing actograms for clients and the other containing actograms for partners.
 
-The goal of the **ADVAnCe - Actigraphy Data Visualization and Analysis Challenge** is to stimulate innovation, creativity and novel thinking in analysing and visualising human rest-activity data.
-
-## Eligibility
-
-The **Actigraphy Data Visualization and Analysis Challenge** is open to anyone. There are no restrictions on country of origin, career status, or any other individual-level characteristics.
-
-## Dataset
-
-The data set to be analysed and visualised is the following data set:
+Data from the following data set must be extracted in the `data` folder. 
 
 > Angelova, M., Kusmakar, S., Karmakar, C., Zhu, Z., Shelyag, S., Drummond, S., & Ellis, J. (2021). Chronic insomnia and bed partner actigraphy data [Data set]. https://doi.org/10.5061/dryad.b8gtht7bh
 
-The data set contains data from 40 people with chronic insomnia and their 40 bed partners (seven nights). Data were collected with an Respironics Actiwatch Spectrum Pro with 60-second epochs.
+In the actograms we plotted only clients that had corresponding bed partners and vice-versa. We plotted 7 days of data for each individual, discarding the first day of recording. 
 
-## How to submit your entry
 
-To submit an entry, please fork this repository and create a pull request, containing your submission in a folder called `output` in a PDF, PNG or other standard image format. If you are submitting a reproducible visualisation, please include a folder called `code`, as well as instructions on running the code in a file called `README`.
+## Reproducing
 
-## Submission deadline
+Downloaded data must be extracted in the `data` folder.  lient and partner data must be in the paths:
 
-All submissions must be received by 15 November 2021.
+- Clients: `data/Supplementary Material_Final/Data/CLIENT`
+- Partners: `data/Supplementary Material_Final/Data/PARTNER`
 
-## Prize
-
-There will be two prize categories:
-* Best visualisation
-* Best reproducible visualisation 
-
-There will be a cash prize for each of these.
-
-## Jury
-
-There will a jury judging the best submissions. Please check back for more details.
+With the data in place one can open the RStudio project `actigraphy-viz-challenge.Rproj` and run the `actograms.R` script. The script's output will be saved to the `output` folder. 
 
 ## Contact
 
-Please contact manuel.spitschan@psy.ox.ac.uk with any queries.
+Visualization was done by J.T. Silvério with data from Angelova et al. (2021). Contact at jt.silverio[at]usp.br
