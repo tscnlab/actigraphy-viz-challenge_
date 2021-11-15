@@ -38,3 +38,8 @@ The data from the pair of participant is split into 24 hour periods centered aro
 2. The day pair containing weekend is marked by * in the yaxis
 3. The photoperiod is also depicted at the top of the plot
 
+Code test out of 40 participant data
+% Multiple file / file format issues:  1187 1190 1228 
+% Over 10 days of days 1039 1057 1124 1182 1237 1246 1277 1287 - can run
+% but plot is not suited for over 10 days of data
+% Runs correctly for the rest 29 participants 
