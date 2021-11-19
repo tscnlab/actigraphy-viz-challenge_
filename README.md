@@ -1,5 +1,7 @@
 # ADVAnCe - Actigraphy Data Visualization and Analysis Challenge
 
+![actigraphy plot](viz.png)
+
 The scripts in this repository aim to provide a clean way of visualizing and comparing client and partners sleep and activity patterns. It is part my entry for the **Actigraphy Data Visualization and Analysis Challenge** that is part of the PoLNet3 workshop.
 
 ## Data and Output
